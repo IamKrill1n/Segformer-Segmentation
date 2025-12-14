@@ -1,0 +1,21 @@
+name: seg
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12.12
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - transformers
+      - datasets
+      - accelerate
+      - albumentations
+      - opencv-python
+      - tqdm
+      - evaluate
+      - torchmetrics
+      - wandb
